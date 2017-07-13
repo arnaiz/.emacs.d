@@ -76,3 +76,7 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'set-goal-column 'disabled nil)
+
+
+(defun donovan ()    (interactive)    (let ((default-directory "/plink:oscar@192.168.56.101:"))      (shell)))
+(if (eq system-type 'windows-nt)   ;; (setq shell-file-name "bash")    (setq tramp-default-method "plink"))
