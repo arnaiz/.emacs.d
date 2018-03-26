@@ -25,3 +25,8 @@ No splash(setq inhibit-splash-screen t)
 ;;Yasnippet(require 'yasnippet)(yas-global-mode 1)
 ;;nyan mode(require 'nyan-mode)(nyan-mode)(nyan-start-animation);;(setq-default nyan-wavy-trail t)
 ;;(require 'linum-mode)(global-linum-mode t)
+ 
+(setq-default indent-tabs-mode nil)
+(setq tab-width 4)
+(defvaralias 'c-basic-offset 'tab-width)
+(defvaralias 'cperl-indent-level 'tab-width)
